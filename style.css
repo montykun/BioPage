@@ -1,42 +1,46 @@
-.header {
-    background-color: black;
-    text-align: center;
+body{
+background-color: #efeee7;
+margin: 0;
+padding: 0;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 18px;
+line-height: 150%;
 }
 
+h1 {
+  color: #efeee7;
+  background-color: #333333;
+  margin: 0;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+a {
+  color: #d21034;
+}
 
 .container {
-    background-color: black;
-    margin: 0;
-    padding:0;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 18px;
-    line-height: 150%;
+  width: 1024px;
+  margin: 0 auto;
 }
 
-.headerText {
-    color: white;
-}
-
-.name {
-    margin-left: 50px;
-}
-
-.pic {
-  margin-left: 50px;
+.main-bio, .contact-info, .bio-image {
   float: left;
 }
 
-.bio {
-  margin-left: 100px;
-  text-align: center;
+.main-bio{
+width: 70%;
 }
 
-.contact {
-    float: right;
+.contact-info{
+  width: 30%;
 }
 
-.box {
-    float: left;
-  width: 33.33%; /* three boxes (use 25% for four, and 50% for two, etc) */
-  padding: 50px;
+.bio-image{
+  margin-right: 20px;
+  width: 200px;
+  height: 200px;
+  border: 2px solid black;
+  border-radius: 50%;
 }
